@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ETCH-A-SKETCH JS</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ETCH-A-SKETCH</h1>
+  <h2>Just move your mouse over the grid and draw!</h2>
+  
+  <div id="seleccion">
+    <label for="gridSize" id="labelText">Grid size:</label>
+    <input type="text" id="gridSize" name="gridSize" value="16">
+    <button onclick="createGrid()" id="btn1">Create grid</button>
+    <button onclick="switchColors()" id="btn2" value="mono">
+      Random colors</button>
+    <!-- 
+    
+    <p>Type in a number in the text box and then click the "Create grid" button 
+      to get an X by X grid, where X is the number you typed in.</p>
+  -->
+    </div>
+  
+  <div id="container"> </div>
+
+</body>
+<script src="script.js"></script>
+</html>
